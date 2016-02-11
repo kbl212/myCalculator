@@ -1,1 +1,9 @@
 C:\Users\Kyle\funProjects\C#\myCalculator\myCalculator\myCalculator\bin\Debug\myCalculator.exe.config
+C:\Users\Kyle\funProjects\C#\myCalculator\myCalculator\myCalculator\bin\Debug\myCalculator.exe
+C:\Users\Kyle\funProjects\C#\myCalculator\myCalculator\myCalculator\bin\Debug\myCalculator.pdb
+C:\Users\Kyle\funProjects\C#\myCalculator\myCalculator\myCalculator\obj\Debug\myCalculator.csprojResolveAssemblyReference.cache
+C:\Users\Kyle\funProjects\C#\myCalculator\myCalculator\myCalculator\obj\Debug\myCalculator.Calculator.resources
+C:\Users\Kyle\funProjects\C#\myCalculator\myCalculator\myCalculator\obj\Debug\myCalculator.Properties.Resources.resources
+C:\Users\Kyle\funProjects\C#\myCalculator\myCalculator\myCalculator\obj\Debug\myCalculator.csproj.GenerateResource.Cache
+C:\Users\Kyle\funProjects\C#\myCalculator\myCalculator\myCalculator\obj\Debug\myCalculator.exe
+C:\Users\Kyle\funProjects\C#\myCalculator\myCalculator\myCalculator\obj\Debug\myCalculator.pdb
