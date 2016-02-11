@@ -12,8 +12,8 @@ namespace myCalculator
 {
     public partial class Calculator : Form
     {
-        Double value = 0;
-        String operation = "";
+        double value = 0;
+        string operation = "";
         bool operation_pressed = false;
 
         public Calculator()
@@ -25,14 +25,14 @@ namespace myCalculator
         {
             if (resultBox.Text == "0" || operation_pressed)
                 resultBox.Clear();
-
+            operation_pressed = false;
             Button tempButton = (Button)sender;
             resultBox.Text += tempButton.Text;
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
-            resultBox.Clear();
+            resultBox.Text = "0";
             value = 0;
         }
 
@@ -42,10 +42,12 @@ namespace myCalculator
             Button opButton = (Button)sender;
             operation = opButton.Text;
             operation_pressed = true;
+            equation.Text = value + " " + operation;
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
+            equation.Text = "";
             switch (operation)
             {
                 case "+":
@@ -63,7 +65,7 @@ namespace myCalculator
                 default:
                     break;
             }
-            operation_pressed = false;
+ 
         }
 
         private void button16_Click(object sender, EventArgs e)
